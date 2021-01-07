@@ -1,0 +1,19 @@
+
+.table {
+
+    overflow: scroll;
+    color: #6a5d5d;
+    overflow-x: hidden;
+    background-color: white;
+    height: 400px;
+}
+
+.table::-webkit-scrollbar {
+    width: 0;
+    background: transparent; /* Chrome/Safari/Webkit */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+
+
+
